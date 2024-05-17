@@ -1,0 +1,105 @@
+/* GERAL */
+body{
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.px-10pc{
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
+/* HEADER */
+
+.bi-list::before {
+    font-size: 2rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #ffd700;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+    color: #ffd700;
+    cursor: pointer;
+}
+.nav-header{
+    transition: 500ms;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-header:hover{
+        border-radius: 8px;
+        transform:translateY(6px);
+        transition: 250ms;
+    }
+} 
+
+/* HOME */
+
+.home-titulo-post{
+    color:#171923;
+    font-size: 1.2rem;
+}
+
+.home-categoria-post{
+    font-size: 1rem;
+    font-weight: 700;
+    color:#ff9b00;;
+}
+
+.home-data-post{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:#525252;
+}
+
+.home-imagem-post{
+    aspect-ratio: 16/9;
+}
+.home-imagem-post img{
+    border-radius: 0.25rem;
+    object-fit: cover;
+}
+
+
+/* POSTAGEM  */
+
+#postagem{
+    padding-top: 4rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.main-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.prequel{
+    font-size: 1.5rem;
+    color: #171923;
+    font-weight: 400;
+}
+.subtitle{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+.info-post{
+    font-size: 0.8rem;
+    color: #525252;
+    font-weight: 600;
+}
+
+.mais-lidas-item::marker{
+    color:#ff9b00;
+}
+.mais-lidas-link:hover{
+    color: #ff9b00;
+}
+.mais-lidas-title{
+    list-style-image: url(./images/livroLaranja.png);
+}
